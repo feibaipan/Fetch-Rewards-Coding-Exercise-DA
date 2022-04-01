@@ -1,7 +1,5 @@
 # Fetch-Rewards-Coding-Exercise-DA
 Fetch Rewards Coding Exercise - Data Analyst  
-Feibai Pan  
-feibaipan169@gmail.com
 
 ## This exercise includes 4 steps:
 1. Review unstructured JSON data and diagram a new structured relational data model
