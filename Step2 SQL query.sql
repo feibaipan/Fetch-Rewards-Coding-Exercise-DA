@@ -8,7 +8,7 @@
 select b.name, sum(r.totalSpent) as totalSales 
 from Receipts r left join Items i on r.receiptID = i.receiptID 
 left join Brands b on i.barcode = b.barcode 
-where r.dateScanned >= date_add(now(), INTERVAL -1 month) 
+where r.dateScanned >= date_add(now(), interval -1 month) 
 group by b.name 
 order by totalSales desc 
 limit 5;
